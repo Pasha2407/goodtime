@@ -1,0 +1,235 @@
+
+body::before {
+    content: '';
+    position: fixed; 
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -10; 
+    background: url(/images/fon.jpg) center / cover no-repeat;
+    filter: blur(4px);
+}
+body {
+  margin: 0px;
+}
+
+.form {
+  position: relative;
+
+}
+a
+{
+  font:13.2px ‘Roboto’, Arial, Helvetica, sans-serif;
+}
+form {
+  position: absolute;
+  left: 50%;
+  width: 430px;  
+  height: 754px;
+  margin-left: -215px;
+  background: rgb(26, 127, 97);
+  margin-top: 0px;
+  margin-block-end: 0em;
+  background: linear-gradient(180deg, rgb(26, 127, 97) , rgb(39, 31, 55));
+}
+
+@media screen and (max-width: 414px) {
+    form {
+       width: 414px;
+       height: 736px;
+        margin-left: -207px;
+    }
+}
+@media screen and (max-width: 375px) {
+    form {
+       width: 374px;
+       height: 667px;
+        margin-left: -187px;
+    }
+}
+@media screen and (max-width: 320px) {
+    form {
+       width: 320px;
+       height: 568px;
+        margin-left: -160px;
+    }
+}
+@media screen and (min-height: 812px) {
+    form {
+       width: 374px;
+       height: 812px;
+        margin-left: -187px;
+    }
+}
+.header {
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+}
+.icon {
+  width: 98%;
+}
+.fon{
+  width: 100%;
+  position: absolute;
+}
+.pro {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-top: 35%;
+}
+.p {
+  padding-top: 100%;
+  padding-left: 37%;
+  padding-right: 37%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+}
+.game {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 39%;
+  margin-top: 35%;
+}
+.g {
+  padding-top: 100%;
+  padding-left: 38%;
+  padding-right: 38%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+}
+
+.nastav {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 68%;
+  margin-top: 35%;
+}
+.n {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+}
+.read {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-top: 70%;
+
+}
+.r {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  padding-left: 19%;
+  padding-right: 19%;
+}
+.shop {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 39%;
+  margin-top: 70%;
+}
+.sh {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+   padding-left: 23%;
+  padding-right: 23%;
+}
+.idea {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 68%;
+  margin-top: 70%;
+}
+.i {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  padding-left: 38%;
+  padding-right: 38%;
+}
+.photo {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-top: 105%;
+}
+.ph {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+    padding-left: 21%;
+  padding-right: 21%;
+}
+.contact {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 39%;
+  margin-top: 105%;
+}
+.c {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+     padding-left: 21%;
+  padding-right: 21%;
+}
+.setting {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 68%;
+  margin-top: 105%;
+}
+.s {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+     padding-left: 3%;
+  padding-right: 3%;
+}
