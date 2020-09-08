@@ -198,12 +198,30 @@ form {
     padding-left: 21%;
   padding-right: 21%;
 }
-.contact {
+.gameday {
   position: absolute;
   width: 23%;
   height: 17%;
   border-radius: 100%;
   margin-left: 39%;
+  margin-top: 105%;
+}
+.gd {
+  padding-top: 100%;
+  position: absolute;
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+     padding-left: 21%;
+  padding-right: 21%;
+}
+.contact {
+  position: absolute;
+  width: 23%;
+  height: 17%;
+  border-radius: 100%;
+  margin-left: 68%;
   margin-top: 105%;
 }
 .c {
@@ -215,21 +233,4 @@ form {
   text-align: center;
      padding-left: 21%;
   padding-right: 21%;
-}
-.setting {
-  position: absolute;
-  width: 23%;
-  height: 17%;
-  border-radius: 100%;
-  margin-left: 68%;
-  margin-top: 105%;
-}
-.s {
-  padding-top: 100%;
-  position: absolute;
-  vertical-align: bottom;
-  text-decoration: none;
-  color: white; 
-     padding-left: 3%;
-  padding-right: 3%;
 }

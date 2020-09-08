@@ -23,7 +23,7 @@ body::before {
     left: 0; right: 0;
     top: 0; bottom: 0;
     z-index: -10; 
-    background: url(/images/fon.jpg) center / cover no-repeat;
+    background: url("https://firebasestorage.googleapis.com/v0/b/goodtime-16b9c.appspot.com/o/fon.jpg?alt=media&token=161973d4-d3a4-4893-b419-558374f5a473") center / cover no-repeat;
     filter: blur(4px);
 }
 body {

@@ -1,0 +1,72 @@
+.text {
+    position: absolute;
+    left: 50%;
+    width: 430px;  
+    height: 754px;
+    margin-left: -215px;
+    margin-block-end: 0em;
+    background: rgb(252, 231, 204);
+  }
+  .header {
+	position: absolute;
+	width: 100px;
+	margin-left: 165px;
+	margin-right: 165px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.upform {
+    position: fixed;
+    left: 50%;
+    width: 430px;  
+    height: 100px;
+    margin-left: -215px;
+    background: #FEE7CA;
+  }
+  
+body::before {
+    content: '';
+    position: fixed; 
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -10; 
+    background: url("https://firebasestorage.googleapis.com/v0/b/goodtime-16b9c.appspot.com/o/fon.jpg?alt=media&token=161973d4-d3a4-4893-b419-558374f5a473") center / cover no-repeat;
+    filter: blur(4px);
+}
+body {
+    margin: 0px;
+  }
+  .form {
+    position: relative;
+  
+  }
+  .back {
+	position: absolute;
+	width: 20px;
+	margin-left: 15px;
+	margin-right: 165px;
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+.aback {
+  position: relative;
+  padding: 15px;
+  top: 43px;
+  margin-left: 10px;
+}
+ .black {
+     font:20px ‘Roboto’, Arial, Helvetica, sans-serif;
+     padding-right: 8%;
+     margin-top: 0;
+     background: #FEE7CA;
+     padding-left:8%;
+     padding-bottom: 20%;
+ }
+ .red {
+   color: #BC2D30;
+   margin-top: 100px;
+   font:20px ‘Roboto’, Arial, Helvetica, sans-serif;
+   margin-left: 8%;
+   margin-right: 8%;
+   margin-bottom: 0;
+ }
