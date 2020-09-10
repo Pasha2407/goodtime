@@ -88,11 +88,11 @@ nav {
  }
 
 .blocks a {
-  font:28px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:160% ‘Roboto’, Arial, Helvetica, sans-serif;
   font-weight:bold;
   text-decoration: none;
   color: white;
-  line-height: 72px;
+  line-height: 260%;
 }
 
  /* COLOR --------------------- */
@@ -152,6 +152,24 @@ nav {
   }
   .blocks div {
     height: 9.5%;
+  }
+  .blocks a {
+    line-height: 260%;
+  }
+ }
+
+ @media screen and (max-width: 330px) {
+  .form {
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+  .blocks div {
+    height: 9.5%;
+  }
+  .blocks a {
+    line-height: 200%;
   }
  }
 
