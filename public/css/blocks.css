@@ -1,4 +1,4 @@
-/* FON ------------------- */
+/* FON -------------------- */
 
 body::before {
   content: '';
@@ -9,11 +9,12 @@ body::before {
   background: url("https://firebasestorage.googleapis.com/v0/b/goodtime-16b9c.appspot.com/o/fon.jpg?alt=media&token=161973d4-d3a4-4893-b419-558374f5a473") center / cover no-repeat;
   filter: blur(4px);
 }
+
 body {
-  margin: 0px;
+margin: 0px;
 }
 
-/* FORM -------------------- */
+/* FORM ------------------ */
 
 .form {
   width: 100%;  
@@ -28,24 +29,34 @@ header {
   position: fixed;
   width: 100%;  
   height: 13%;
-  background:#FEE7CA;
+  background: #FEE7CA;
   z-index: 1;
   box-sizing: border-box;
 }
 
 nav {
   width: 100%;
-  top: 32%;
+  top: 25%;
   position: relative;
 }
 
 .header {
-  position: relative;
+	position: relative;
   margin: 0 auto;
-  width: 27%;
+  width: 24%;
 }
 
 .header img {
+  width: 100%;
+}
+
+.header_sport {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.header_sport img {
   width: 100%;
 }
 
@@ -53,37 +64,59 @@ nav {
   left: 3%;
   width: 4.5%;
   position: absolute;
-  
+  margin-top: 1.5%;
 }
 
 .back img {
   width: 100%;
 }
 
-/* TEXT ------------------ */
+/* BLOCKS ------------------- */
 
-.text {
+.blocks {
   position: relative;
   width: 100%;  
   height: 100%;
   background:  #FEE7CA;
-  margin: 0 auto;
   top:13%;
-  font:17px ‘Roboto’, Arial, Helvetica, sans-serif;
 }
 
-p{
-  background: #FEE7CA;
-  padding: 0 9% 0 9%;
-  text-indent: 10px;
-  margin:0;
+.blocks div {
+  width: 100%;  
+  height: 9.5%;
+  text-align: center;
+ }
+
+.blocks a {
+  font:28px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-decoration: none;
+  color: white;
+  line-height: 72px;
 }
 
-span#red {
-  color: rgb(193, 98, 94);
-}
+ /* COLOR --------------------- */
 
-/* ADAPTING -------------------- */
+ #onecolor {
+  background-color: #1E7B60;
+ }
+  #twocolor {
+  background-color: #88A053;
+ }
+ #threecolor {
+  background-color: #2B3D4A;
+ }
+ #fourcolor {
+  background-color: #295B57;
+ }
+ #fivecolor {
+  background-color: #648140;
+ }
+#sixcolor {
+  background-color: #281E37;
+ }
+
+ /* ADAPTING -------------------- */
 
 @media screen and (max-width: 1920px) {
   .form {
@@ -102,8 +135,11 @@ span#red {
     width: 420px;
     height: 100px;
   }
-  .text {
+  .blocks {
     top: 100px;
+  }
+  .blocks div {
+    height: 68px;
   }
 }
 
@@ -114,9 +150,10 @@ span#red {
   header{
     width: 100%;
   }
+  .blocks div {
+    height: 9.5%;
+  }
  }
 
- 
 
- 
- 
+
