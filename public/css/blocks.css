@@ -1,3 +1,35 @@
+
+/* CLEANING ------------------ */
+
+*{padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
 /* FON -------------------- */
 
 body::before {
@@ -29,42 +61,28 @@ header {
   position: fixed;
   width: 100%;  
   height: 13%;
-  background: #FEE7CA;
+  background:#FEE7CA;
   z-index: 1;
-  box-sizing: border-box;
-}
-
-nav {
-  width: 100%;
-  top: 25%;
-  position: relative;
 }
 
 .header {
-	position: relative;
-  margin: 0 auto;
-  width: 24%;
-}
-
-.header img {
-  width: 100%;
-}
-
-.header_sport {
+  text-align: center;
   position: relative;
-  margin: 0 auto;
-  width: 60%;
-}
-
-.header_sport img {
-  width: 100%;
+  font:47px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(180deg, rgb(32, 184, 138) , rgb(39, 31, 55));
+  margin-top: 2.5%;
 }
 
 .back {
   left: 3%;
   width: 4.5%;
   position: absolute;
-  margin-top: 1.5%;
+  margin-top: 7.5%;
+  z-index: 1;
 }
 
 .back img {
@@ -82,96 +100,163 @@ nav {
 }
 
 .blocks div {
-  width: 100%;  
+  width: 100.1%;  
   height: 9.5%;
   text-align: center;
+  display: table;
  }
 
 .blocks a {
-  font:160% ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:25px ‘Roboto’, Arial, Helvetica, sans-serif;
   font-weight:bold;
   text-decoration: none;
   color: white;
-  line-height: 260%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
  /* COLOR --------------------- */
 
- #onecolor {
+ #one_color {
   background-color: #1E7B60;
  }
-  #twocolor {
+  #two_color {
   background-color: #88A053;
  }
- #threecolor {
+ #three_color {
   background-color: #2B3D4A;
  }
- #fourcolor {
+ #four_color {
   background-color: #295B57;
  }
- #fivecolor {
+ #five_color {
   background-color: #648140;
  }
-#sixcolor {
+#six_color {
   background-color: #281E37;
+ }
+ #last_color {
+   background-color: #FEE7CA;
  }
 
  /* ADAPTING -------------------- */
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 4000px) {
   .form {
-     width: 420px;
+     width: 27%;
   }
   header {
-    width: 420px;
+    width: 27%;
   }
-}
-
-@media screen and (max-width: 1370px) {
-  .form {
-     width: 420px;
-  }
-  header {
-    width: 420px;
-    height: 100px;
-  }
-  .blocks {
-    top: 100px;
-  }
-  .blocks div {
-    height: 68px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .form {
-    width: 100%;
-  }
-  header{
-    width: 100%;
-  }
-  .blocks div {
-    height: 9.5%;
+  .header {
+    font-size: 47px;
   }
   .blocks a {
-    line-height: 260%;
+    font-size: 25px;
+  }
+}
+
+ @media screen and (max-width: 1100px) {
+  .form {
+    width: 70%;
+  }
+  header {
+    width: 70%;
+  }
+  .header {
+    font-size: 87px;
+  }
+  .blocks a {
+    font-size: 50px;
   }
  }
+
+ @media screen and (max-width: 770px) {
+  .form {
+    width: 70%;
+  }
+  header {
+    width: 70%;
+  }
+  .header {
+    font-size: 67px;
+  }
+  .blocks a {
+    font-size: 35px;
+  }
+ }
+
+ @media screen and (max-width: 540px) {
+  .form {
+    width: 75%;
+  }
+  header {
+    width: 75%;
+  }
+  .header {
+    font-size: 47px;
+  }
+  .blocks a {
+    font-size: 26px;
+  }
+ }
+
+@media screen and (max-width: 440px) {
+  .form {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .header {
+    font-size: 48px;
+  }
+  .blocks a {
+    font-size: 26px;
+  }
+ }
+
+ @media screen and (max-width: 385px) {
+  .form {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .header {
+    font-size: 46px;
+  }
+  .blocks a {
+    font-size: 24px;
+  }
+ }
+
+ @media screen and (max-width: 365px) {
+  .form {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .header {
+    font-size: 42px;
+  }
+  .blocks a {
+    font-size: 22px;
+  }
+}
 
  @media screen and (max-width: 330px) {
   .form {
     width: 100%;
   }
-  header{
+  header {
     width: 100%;
   }
-  .blocks div {
-    height: 9.5%;
+  .header {
+    font-size: 38px;
   }
   .blocks a {
-    line-height: 200%;
+    font-size: 20px;
   }
- }
-
-
-
+}
