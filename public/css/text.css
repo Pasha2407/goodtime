@@ -58,7 +58,7 @@ body {
 header {
   position: fixed;
   width: 100%;  
-  height: 13%;
+  height: 14%;
   background:#FEE7CA;
   z-index: 1;
   display: table;
@@ -74,14 +74,12 @@ header {
 }
 
 .back {
-  left: 4%;
-  width: 4.3%;
-  position: absolute;
-  margin-top: 7.5%;
-}
-
-.back img {
-  width: 100%;
+  width: 4.5%;
+ position: absolute;
+ top: 50%;
+ left: 3%;
+ margin-top: -4%;
+ z-index: 1;
 }
 
 /* TEXT ------------------ */
@@ -92,7 +90,7 @@ header {
   height: 100%;
   background:  #FEE7CA;
   margin: 0 auto;
-  top:13%;
+  top:14%;
   font:17px ‘Roboto’, Arial, Helvetica, sans-serif;
 }
 
@@ -133,10 +131,31 @@ span#red {
     width: 27%;
   }
   .header {
-    font-size: 25px;
+    font-size: 30px;
   }
   .text {
-    font-size: 17px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .form {
+    width: 27%;
+ }
+ header {
+   width: 27%;
+ }
+ .header {
+   font-size: 25px;
+ }
+ .text {
+   font-size: 17px;
+ }
+}
+
+@media screen and (max-width: 1300px) {
+  .form {
+     width: 29%;
   }
 }
 
@@ -193,10 +212,10 @@ span#red {
     width: 100%;
   }
   .header {
-    font-size: 26px;
+    font-size: 25px;
   }
   .text {
-    font-size: 18px;
+    font-size: 17px;
   }
  }
 
@@ -244,3 +263,115 @@ span#red {
     font-size: 13px;
   }
  }
+
+ /* ROTATION ---------------- */
+
+@media screen and (orientation:landscape) and (max-device-height: 440px) {
+  html{
+           -webkit-transform: rotate(-90deg);
+           -moz-transform: rotate(-90deg);
+           -ms-transform: rotate(-90deg);
+           -o-transform: rotate(-90deg);
+           transform: rotate(-90deg);
+           -webkit-transform-origin: left top;
+           -moz-transform-origin: left top;
+           -ms-transform-origin: left top;
+           -o-transform-origin: left top;
+           transform-origin: left top;
+      height: 100vw;
+      width: 100vh;
+      position: absolute;
+      top: 100%;
+      left: 0;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-width: 1370px) {
+  .form {
+    width: 45%;
+  }
+  header{
+    width: 45%;
+  }
+  .text {
+    font-size: 28px;
+  }
+  .header {
+    font-size: 40px;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 770px) {
+  .form {
+    width: 45%;
+  }
+  header{
+    width: 45%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .header {
+    font-size: 30px;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 540px) {
+  .text {
+    font-size: 12px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .form {
+    width: 45%;
+  }
+  header{
+    width: 45%;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 440px) {
+  .text {
+    font-size: 17px;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .form {
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 385px) {
+  .text {
+    font-size: 16px;
+  }
+  .header {
+    font-size: 24px;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 385px) {
+  .text {
+    font-size: 15px;
+  }
+  .header {
+    font-size: 22px;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-device-height: 330px) {
+  .text {
+    font-size: 13px;
+  }
+  .header {
+    font-size: 20px;
+  }
+}
