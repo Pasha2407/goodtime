@@ -65,17 +65,25 @@ header {
   z-index: 1;
 }
 
-.header {
+header p {
   text-align: center;
   position: relative;
   margin-top: -9%;
   top: 50%;
-  font:47px ‘Roboto’, Arial, Helvetica, sans-serif;
-  font-weight: 800;
   -webkit-background-clip: text;
   color: transparent;
   background-clip: text;
   background-image: linear-gradient(180deg, rgb(32, 184, 138) , rgb(39, 31, 55));
+}
+.header {
+  font:47px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-top: -9%;
+}
+.long_header {
+  font:37px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-top: -7%;
 }
 
 .back {

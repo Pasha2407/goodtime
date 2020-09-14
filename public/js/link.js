@@ -39,4 +39,7 @@ function back_menu(){
     function back_sport(){
       document.location.href = "../sportuvni.html";
     }
+    function back_intelekt(){
+      document.location.href = "../intelekt.html";
+    }
 
