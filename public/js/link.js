@@ -39,14 +39,10 @@ function back_menu(){
     function back_sport(){
       document.location.href = "../sportuvni.html";
     }
+    function back_nastilni() {
+      document.location.href = "../nastilni.html";
+    }
     function back_intelekt(){
       document.location.href = "../intelekt.html";
     }
-
-  function back_game_2(){
-    document.location.href = "../../game.html";
-  }
-
-function back_nastilni() {
-  document.location.href = "../nastilni/nastilni.html";
-}
+    
