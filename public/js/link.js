@@ -40,3 +40,10 @@ function back_menu(){
       document.location.href = "../sportuvni.html";
     }
 
+  function back_game_2(){
+    document.location.href = "../../game.html";
+  }
+
+function back_nastilni() {
+  document.location.href = "../nastilni/nastilni.html";
+}
