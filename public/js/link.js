@@ -60,3 +60,24 @@ function back_menu(){
       function back_tabirni_vodniigru(){
         document.location.href = "../vodni igru.html";
       }
+    function back_konkursni(){
+      document.location.href = "../konkursni.html";
+    }
+      function back_konkursni_naskorist(){
+        document.location.href = "../na skorist.html";
+      }
+      function back_konkursni_popadalku(){
+        document.location.href = "../popadalku.html";
+      }
+      function back_konkursni_rizni(){
+        document.location.href = "../rizni.html";
+      }
+      function back_konkursni_rozumovi(){
+        document.location.href = "../rozumovi.html";
+      }
+      function back_konkursni_vhaday(){
+        document.location.href = "../vhaday.html";
+      }
+    function back_inshi(){
+      document.location.href = "../inshi.html";
+    }
