@@ -45,4 +45,18 @@ function back_menu(){
     function back_intelekt(){
       document.location.href = "../intelekt.html";
     }
-    
+    function back_vidhaday(){
+      document.location.href = "../vidhaday.html";
+    }
+    function back_chelengi(){
+      document.location.href = "../chelengi.html";
+    }
+    function back_tabirni(){
+      document.location.href = "../tabirni.html";
+    } 
+      function back_tabirni_igrunaz(){
+        document.location.href = "../igru na znayomstvo.html";
+      }
+      function back_tabirni_vodniigru(){
+        document.location.href = "../vodni igru.html";
+      }
