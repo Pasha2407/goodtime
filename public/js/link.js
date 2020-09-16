@@ -36,6 +36,7 @@ function back_menu(){
   function back_game(){
     document.location.href = "../game.html";
   }
+  /* GAME */
     function back_sport(){
       document.location.href = "../sportuvni.html";
     }
@@ -81,3 +82,9 @@ function back_menu(){
     function back_inshi(){
       document.location.href = "../inshi.html";
     }
+  /* ---------- */
+
+  function back_read(){
+    document.location.href = "../read.html";
+  }
+  /* READ */
