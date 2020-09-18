@@ -103,6 +103,12 @@ function back_menu(){
     function back_cutatu(){
       document.location.href = "../cutatu.html";
     }
+    function back_virshi(){
+      document.location.href = "../cutatu.html";
+    }
+    function back_history(){
+      document.location.href = "../cutatu.html";
+    }
   /* ---------- */
 
   
