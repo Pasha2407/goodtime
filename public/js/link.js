@@ -4,7 +4,7 @@ function pasha_insta(){
   window.open('https://www.instagram.com/pasha_khim_24.07/');
 }
 function slava_insta(){
-  window.open('https://www.instagram.com/sraka_01/');
+  window.open('https://www.instagram.com/slavathunder/');
 }
 function pablo_insta(){
   window.open('https://instagram.com/pablodesign108?igshid=17tcirb1kqir8');
@@ -104,10 +104,10 @@ function back_menu(){
       document.location.href = "../cutatu.html";
     }
     function back_virshi(){
-      document.location.href = "../cutatu.html";
+      document.location.href = "../virshi.html";
     }
     function back_history(){
-      document.location.href = "../cutatu.html";
+      document.location.href = "../history.html";
     }
   /* ---------- */
 
