@@ -38,7 +38,7 @@ body::before {
   left: 0; right: 0;
   top: 0; bottom: 0;
   z-index: -10; 
-  background: url("https://firebasestorage.googleapis.com/v0/b/goodtime-16b9c.appspot.com/o/fon.jpg?alt=media&token=161973d4-d3a4-4893-b419-558374f5a473") center / cover no-repeat;
+  background: url("../images/menu/background.jpg") center / cover no-repeat;
   filter: blur(4px);
 }
 
@@ -77,17 +77,17 @@ header p {
 }
 
 .header {
-  font:47px ‘Roboto’, Arial, Helvetica, sans-serif;
-  font-weight: 800;
+  font:47px ‘Roboto’, sans-serif;
+  font-weight:800;
 }
 
 .long_header {
-  font:37px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:37px ‘Roboto’, sans-serif;
   font-weight: 800;
 }
 
 .very_long_header {
-  font:27px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:27px ‘Roboto’, sans-serif;
   font-weight: 800;
 }
 
@@ -118,12 +118,68 @@ header p {
  }
 
 .blocks a {
-  font:25px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:25px ‘Roboto’,Century Gothic, sans-serif;
   font-weight:bold;
   text-decoration: none;
   color: white;
   display: table-cell;
   vertical-align: middle;
+}
+
+.block_contact {
+  position: relative;
+  width: 100.1%;  
+  height: 30%;
+  background:  #FEE7CA;
+  top:14%;
+  text-align: center;
+  display: table;
+}
+
+ .block_contact p {
+  font:23px ‘Roboto’,Century Gothic, sans-serif;
+  font-weight:bold;
+  text-decoration: none;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5% 3% 5% 3%;
+  line-height: 30pt;
+}
+
+/* ICONS_CONTACT -------------------- */
+
+.icons {
+  width: 100%;
+  margin: 7% 0 0 10%; 
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+}
+
+.icons div{
+  width: 100%;  
+  height: 9.5%;
+  margin-left: 0;
+  margin-bottom: 4%;
+}
+
+.icons span {
+  position: relative;
+  font:22px ‘Roboto’,Century Gothic, sans-serif;
+  padding-left: 3%;
+  top: 1.5%;
+  font-weight: bold;
+  color: #104d43;
+}
+
+.icons a {
+  color: #104d43;
+}
+
+.icons img {
+  width: 9%;
+  position: relative;
 }
 
  /* COLOR --------------------- */
@@ -182,11 +238,26 @@ header p {
  }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
   .form {
-     width: 29%;
-  }
+    width: 27%;
+ }
+ header {
+   width: 27.05%;
+ }
+ .header {
+   font-size: 43px;
+ }
+ .long_header {
+   font-size: 33px;
+ }
+ .very_long_header {
+  font-size: 23px;
 }
+ .blocks a {
+   font-size: 22px;
+ }
+} 
 
  @media screen and (max-width: 770px) {
   .form {

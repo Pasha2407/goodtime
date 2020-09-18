@@ -1,3 +1,15 @@
+/* LINKS ------------------- */
+
+function pasha_insta(){
+  window.open('https://www.instagram.com/pasha_khim_24.07/');
+}
+function slava_insta(){
+  window.open('https://www.instagram.com/sraka_01/');
+}
+function pablo_insta(){
+  window.open('https://instagram.com/pablodesign108?igshid=17tcirb1kqir8');
+}
+
 /* MENU ---------------------- */
 
 function pro(){
@@ -24,8 +36,8 @@ function images(){
 function gameday(){
   document.location.href = "gameday.html";
 }
-function setting(){
-  document.location.href = "setting.html";
+function contact(){
+  document.location.href = "contact.html";
 }
 
 /* BACK --------------------- */
@@ -88,3 +100,9 @@ function back_menu(){
     document.location.href = "../read.html";
   }
   /* READ */
+    function back_cutatu(){
+      document.location.href = "../cutatu.html";
+    }
+  /* ---------- */
+
+  

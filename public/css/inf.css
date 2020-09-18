@@ -37,7 +37,7 @@ body::before {
     left: 0; right: 0;
     top: 0; bottom: 0;
     z-index: -10; 
-    background: url("https://firebasestorage.googleapis.com/v0/b/goodtime-16b9c.appspot.com/o/fon.jpg?alt=media&token=161973d4-d3a4-4893-b419-558374f5a473") center / cover no-repeat;
+    background: url("../images/menu/background.jpg") center / cover no-repeat;
     filter: blur(4px);
 }
 
@@ -73,7 +73,7 @@ body {
   height: 60%;
   width: 100%;
   margin: 0px auto;
-  margin-top: 13%;
+  margin-top: 15%;
   padding:  0 10% 0 4%;
   box-sizing: border-box;
   text-align: center;
@@ -91,11 +91,11 @@ body {
   vertical-align: top;
   color: white; 
   margin: 0;
-  font:17px ‘Roboto’, Arial, Helvetica, sans-serif;
+  font:17px ‘Roboto’,Century Gothic, sans-serif;
 }
 
 .two_line_text{
-  position: absolute;
+  opacity: 0;
 }
 
 .icon {
@@ -104,30 +104,21 @@ body {
 
 /* ADAPTING -------------------- */
 
-@media screen and (max-width: 4000px) {
+@media screen and (max-width: 2000px) {
   .form {
      width: 27%;
   }
   .icons p {
-    font-size: 25px;
+    font-size: calc(13px + (6 + 6 * 0.7) * ((100vw - 1280px) / 2000));
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1030px) {
   .form {
-     width: 27%;
+     width: 70%;
   }
   .icons p {
-    font-size: 17px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .form {
-     width: 29%;
-  }
-  .icons p {
-    font-size: 15px;
+    font-size:25px;
   }
 }
 
@@ -136,7 +127,7 @@ body {
      width: 70%;
   }
   .icons p {
-    font-size:22px;
+    font-size:21px;
   }
 }
 
@@ -145,7 +136,7 @@ body {
      width: 75%;
   }
   .icons p {
-    font-size:18px;
+    font-size:15px;
   }
 }
 
@@ -154,28 +145,28 @@ body {
     width: 100%;
   }
   .icons p {
-    font-size:18px;
+    font-size:15px;
   }
  }
 
  @media screen and (max-width: 385px) {
   .icons p 
    {
-      font-size:16px;
+      font-size:14px;
     }
  }
 
  @media screen and (max-width: 365px) {
   .icons p 
    {
-      font-size:15px;
+      font-size:13px;
     }
  }
 
  @media screen and (max-width: 330px) {
   .icons p 
    {
-      font-size:13px;
+      font-size:12px;
     }
  }
 
@@ -185,6 +176,6 @@ body {
   }
   .icons p 
    {
-      font-size:12px;
+      font-size:10px;
     }
  }
