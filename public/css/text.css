@@ -123,6 +123,11 @@ span#red {
   font-weight: bold;
 }
 
+span#yellow {
+  color: #C9830F;
+  font-weight: bold;
+}
+
 .avtor{
   float: right;
 }
@@ -179,6 +184,15 @@ span#red {
   background-color: #FEE7CA;
 }
 /* ADAPTING -------------------- */
+
+@media screen and (max-width: 9999px) {
+  .form {
+     width: 27%;
+  }
+  header {
+    width: 27%;
+  }
+}
 
 @media screen and (max-width: 4000px) {
   .form {

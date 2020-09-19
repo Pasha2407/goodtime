@@ -109,6 +109,9 @@ function back_menu(){
     function back_history(){
       document.location.href = "../history.html";
     }
+    function back_poradu(){
+      document.location.href = "../poradu.html";
+    }
   /* ---------- */
 
   
