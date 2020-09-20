@@ -168,7 +168,7 @@ header p {
 
 .icons div{
   width: 100%;  
-  height: 9.5%;
+  height: 9%;
   margin-left: 0;
   margin-bottom: 4%;
 }
@@ -233,6 +233,10 @@ header p {
   header {
     width: 27.05%;
   }
+  .block_contact p {
+    font-size: calc(20px + (20 + 20 * 0.7) * ((100vw - 1280px) / 2000));
+    line-height: calc(25pt + (25 + 25 * 0.7) * ((100vw - 1280px) / 2000));
+  }
   .blocks a {
     font-size: calc(22px + (15 + 15 * 0.7) * ((100vw - 1280px) / 2000));
   }
@@ -250,6 +254,9 @@ header p {
   }
   .very_long_header {
     font-size: calc(22px + (23 + 23 * 0.7) * ((100vw - 1280px) / 2000));
+  }
+  .icons span {
+    font-size: calc(20px + (15 + 15 * 0.7) * ((100vw - 1280px) / 2000));
   }
 
 }
@@ -270,6 +277,10 @@ header p {
   .very_long_header {
     font-size: 45px;
   }
+  .block_contact p {
+    font-size: 40px;
+    line-height: 50pt;
+  }
   .blocks a {
     font-size: 45px;
   }
@@ -278,6 +289,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 34px;
+  }
+  .icons span {
+    font-size: 40px;
   }
  }
 
@@ -297,6 +311,10 @@ header p {
   .very_long_header {
     font-size: 33px;
   }
+  .block_contact p {
+    font-size: 30px;
+    line-height: 40pt;
+  }
   .blocks a {
     font-size: 34px;
   }
@@ -305,6 +323,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 25px;
+  }
+  .icons span {
+    font-size: 30px;
   }
  }
 
@@ -324,6 +345,10 @@ header p {
 .very_long_header {
   font-size: 24px;
 }
+.block_contact p {
+  font-size: 23px;
+  line-height: 30pt;
+}
   .blocks a {
     font-size: 25px;
   }
@@ -332,6 +357,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 19px;
+  }
+  .icons span {
+    font-size: 22px;
   }
  }
 
@@ -351,6 +379,10 @@ header p {
 .very_long_header {
   font-size: 25px;
 }
+.block_contact p {
+  font-size: 23px;
+  line-height: 30pt;
+}
   .blocks a {
     font-size: 25px;
   }
@@ -359,6 +391,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 19px;
+  }
+  .icons span {
+    font-size: 23px;
   }
  }
 
@@ -378,6 +413,10 @@ header p {
 .very_long_header {
   font-size: 24px;
 }
+.block_contact p {
+  font-size: 21px;
+  line-height: 27pt;
+}
   .blocks a {
     font-size: 23px;
   }
@@ -386,6 +425,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 17px;
+  }
+  .icons span {
+    font-size: 21px;
   }
  }
 
@@ -405,6 +447,10 @@ header p {
 .very_long_header {
   font-size: 22px;
 }
+.block_contact p {
+  font-size: 20px;
+  line-height: 25pt;
+}
   .blocks a {
     font-size: 21px;
   }
@@ -413,6 +459,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 16px;
+  }
+  .icons span {
+    font-size: 20px;
   }
 }
 
@@ -432,6 +481,10 @@ header p {
 .very_long_header {
   font-size: 20px;
 }
+.block_contact p {
+  font-size: 18px;
+  line-height: 23pt;
+}
   .blocks a {
     font-size: 19px;
   }
@@ -440,6 +493,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 14px;
+  }
+  .icons span {
+    font-size: 18px;
   }
 }
 
