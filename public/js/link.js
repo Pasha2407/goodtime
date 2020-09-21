@@ -112,6 +112,9 @@ function back_menu(){
     function back_poradu(){
       document.location.href = "../poradu.html";
     }
+    function back_kreationizm(){
+      document.location.href = "../kreationizm.html";
+    }
   /* ---------- */
 
   
