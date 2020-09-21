@@ -19,7 +19,7 @@ function game(){
 	document.location.href = "game.html";
 }
 function nastav(){
-	document.location.href = "nastav.html";
+	document.location.href = "dlia nastavnuka.html";
 }
 function read(){
  document.location.href = "read.html";
