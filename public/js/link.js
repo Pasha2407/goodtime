@@ -120,4 +120,20 @@ function back_menu(){
     }
   /* ---------- */
 
+  function back_idei(){
+    document.location.href = "../idei.html";
+  }
+  /* IDEI */
+    function back_dekor(){
+      document.location.href = "../dekor.html";
+    }
+    function back_media(){
+      document.location.href = "../media.html";
+    }
+    function back_rubruku(){
+      document.location.href = "../rubruku.html";
+    }
+    function back_tvorchist(){
+      document.location.href = "../tvorchist.html";
+    }
   
