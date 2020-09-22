@@ -136,4 +136,9 @@ function back_menu(){
     function back_tvorchist(){
       document.location.href = "../tvorchist.html";
     }
+  /* ------- */
+
+  function back_nastav(){
+    document.location.href = "../dlia nastavnuka.html";
+  }
   
