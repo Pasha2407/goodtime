@@ -27,8 +27,8 @@ function read(){
 function shop(){
 	document.location.href = "shop.html";
 }
-function idea(){
-  document.location.href = "idea.html";
+function idei(){
+  document.location.href = "idei.html";
 }
 function images(){
   document.location.href = "images.html";
@@ -114,6 +114,9 @@ function back_menu(){
     }
     function back_kreationizm(){
       document.location.href = "../kreationizm.html";
+    }
+    function back_apolohetuka(){
+      document.location.href = "../apolohetuka.html";
     }
   /* ---------- */
 
