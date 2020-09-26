@@ -59,7 +59,7 @@ margin: 0px;
 
 header {
   position: fixed;
-  width: 100.1%;  
+  width: 100%;  
   height: 14%;
   background:#FEE7CA;
   z-index: 1;
@@ -104,9 +104,8 @@ header p {
 
 .blocks {
   position: relative;
-  width: 100.1%;  
+  width: 100%;  
   height: 100%;
-  background:  #FEE7CA;
   top:14%;
 }
 
@@ -137,7 +136,7 @@ header p {
 
 .block_contact {
   position: relative;
-  width: 100.1%;  
+  width: 100%;  
   height: 30%;
   background:  #FEE7CA;
   top:14%;
@@ -231,7 +230,7 @@ header p {
      width: 27%;
   }
   header {
-    width: 27.05%;
+    width: 27%;
   }
   .block_contact p {
     font-size: calc(20px + (20 + 20 * 0.7) * ((100vw - 1280px) / 2000));

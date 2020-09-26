@@ -30,8 +30,8 @@ function shop(){
 function idei(){
   document.location.href = "idei.html";
 }
-function images(){
-  document.location.href = "images.html";
+function photo(){
+  document.location.href = "photo.html";
 }
 function gameday(){
   document.location.href = "gameday.html";
