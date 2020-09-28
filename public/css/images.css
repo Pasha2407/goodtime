@@ -98,12 +98,13 @@ header>p{
     height: 100%;
     background:  #FEE7CA;
     margin: 0 auto;
-    top:14%;
   }
   
   .icons {
     padding:  4% 0 4% 8%;
     box-sizing: border-box;
+    position: relative;
+    top: 14%;
   }
   
   .icons li {
@@ -131,10 +132,52 @@ header>p{
 .width{
    transition: all 1s ease-out;
 }
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 550px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/*
 .width:hover{
    transform: scale(4);
    z-index: 1;
 }
+*/
 
 /* ADAPTING -------------------- */
 
@@ -312,5 +355,9 @@ header>p{
   }
   .icons_pro p {
     font-size: 7.5px;
+  }
+
+  .modal-content {
+    width: 95%;
   }
  }
