@@ -141,4 +141,7 @@ function back_menu(){
   function back_nastav(){
     document.location.href = "../dlia nastavnuka.html";
   }
+  function back_photo(){
+    document.location.href = "../photo.html";
+  }
   

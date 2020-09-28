@@ -59,7 +59,7 @@ header {
   width: 100%;  
   height: 14%;
   display: table;
-  z-index: 1;
+  z-index: 2;
   background-color: #FEE7CA;
 }
 
@@ -81,16 +81,6 @@ header>p{
   vertical-align: middle;
 }
 
-.header_img {
-  position: relative;
-  margin: 0 auto;
-  margin-top: 5%;
-  width: 50%;
-}
-.header_img img {
-  width: 100%;
-}
-
 .back {
   width: 4.5%;
  position: absolute;
@@ -100,109 +90,52 @@ header>p{
  z-index: 1;
 }
 
-/* TEXT ------------------ */
+/* PHOTO ------------------ */
 
-.text {
-  position: relative;
-  width: 100%;  
-  height: 100%;
-  background:  #FEE7CA;
-  margin: 0 auto;
-  top:14%;
+.form_photo {
+    position: relative;
+    width: 100%;  
+    height: 100%;
+    background:  #FEE7CA;
+    margin: 0 auto;
+    top:14%;
+  }
+  
+  .icons {
+    padding:  4% 0 4% 8%;
+    box-sizing: border-box;
+  }
+  
+  .icons li {
+    width: 25%;
+    height: 12%;
+    margin: 0 7% 3.5% 0;
+    position: relative;
+    display: inline-block;
+  }
+
+  .height {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
-p{
-  color: #11423B;
-  background: #FEE7CA;
-  padding: 0 9% 0 9%;
-  text-indent: 10px;
-  margin:0;
-  font-weight: normal;
-  font:17px ‘Roboto’,Century Gothic, sans-serif;
+  .width {
+      width: 100%;
+   transition: all 1s ease-out;
+   position: relative;
+  }
+/* ANIMATION ------------------- */
+
+
+.width{
+   transition: all 1s ease-out;
+}
+.width:hover{
+   transform: scale(4);
+   z-index: 1;
 }
 
-.last_p {
-  padding-bottom: 10%;
-}
-
-span#red {
-  color: #be2e31;
-  font-weight: bold;
-}
-
-i#yellow {
-  color: #C9830F;
-  font-weight: bold;
-}
-
-.avtor{
-  float: right;
-}
-
-/* ICONS ------------------- */
-
-.icon_box{
-width: 100%;
-background-color: #FEE7CA;
-}
-
-.big_icon{
-  position: relative;
-  width: 70%;
-  margin: 0 auto;
-  padding: 3% 0 3% 0;
-}
-
-.icon{
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
-  padding: 3% 0 3% 0;
-}
-
-.icon img, .big_icon img {
-  width: 100%;
-}
-
-.icons_pro {
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  text-align: center;
-  position: relative;
-  padding:  0 10% 0 4%;
-}
-
-.icons_pro li {
-  width: 20%;
-  display: inline-block;
-  margin: 0 0 10% 6.5%;
-  position: relative;
-  text-align: center;
-}
-
-.icons_pro p {
-  vertical-align: top;
-  color: #11423B;
-  margin: 0;
-  font:10px ‘Roboto’,Century Gothic, sans-serif;
-  text-indent: unset;
-  font-weight:  bold;
-}
-
-.two_line_text{
-  opacity: 0;
-}
-
-.img_pro {
-  width: 100%;
-}
-
-.creator{
-  width: 100%;
-  height: 15%;
-  background-color: #FEE7CA;
-}
 /* ADAPTING -------------------- */
 
 @media screen and (max-width: 9999px) {
