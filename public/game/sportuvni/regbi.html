@@ -1,13 +1,15 @@
 <html>
-<head>
-	<title>Good Time</title>
-	<link rel="stylesheet" type="text/css" href="../../css/text.css">
-	<link rel="icon" href="../../images/menu/icon.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<script src = "../../js/link.js"></script>
-</head>
-<body>
+	<head>
+		<title>Good Time</title>
+	   <link rel="stylesheet" type="text/css" href="../../css/text.css">
+	   <link rel="stylesheet" type="text/css" href="../../css/images.css">
+	   <link rel="icon" href="../../images/menu/icon.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script src = "../../js/link.js"></script>
+	   <script src = "../../js/slavko.js" ></script>
+	</head>
+	<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -28,7 +30,7 @@
                 тут будуть ті же правила, що і в фрсібі (так, як обидві гри схожі), тільки замість 
 				диска - овальний м’яч.</p>
 				<div class = "icon_box"> 
-			<div class = "icon"><img src="../../images/igru/sportuvni/frisbi_icon.png"></div>
+			<div class = "img"><img src="../../images/igru/sportuvni/frisbi_icon.png"></div>
 			</div>
 			   <p>Позначаємо
                 територію як на   
@@ -41,13 +43,19 @@
 далі, щоб прийняти пас, якщо м’яч впав на землю, то гра продовжується з того місця, де впав м’яч, кидає інша команда від якої впав м’яч, коли учасник спіймав м’яч за лінією - 1 гол, учасники не можуть заходити за лінію, на якій ловить протилежна 
 команда.</p>
 <div class = "icon_box"> 
-	<div class = "icon"><img src="../../images/igru/sportuvni/спорт регбі.jpg"></div>
+	<div class = "img"><img src="../../images/igru/sportuvni/спорт регбі.jpg"></div>
 	</div>
 	<div class = "icon_box"> 
-		<div class = "icon"><img src="../../images/igru/sportuvni/спорт регбі2.jpg"></div>
+		<div class = "img"><img src="../../images/igru/sportuvni/спорт регбі2.jpg"></div>
 		</div>
 	<p class = "last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

@@ -146,21 +146,14 @@ width: 100%;
 background-color: #FEE7CA;
 }
 
-.big_icon{
+.img{
   position: relative;
-  width: 70%;
+  width: 45%;
   margin: 0 auto;
   padding: 3% 0 3% 0;
 }
 
-.icon{
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
-  padding: 3% 0 3% 0;
-}
-
-.icon img, .big_icon img {
+.img img{
   width: 100%;
 }
 

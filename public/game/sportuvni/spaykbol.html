@@ -1,13 +1,15 @@
 <html>
-<head>
-	<title>Good Time</title>
-   <link rel="stylesheet" type="text/css" href="../../css/text.css">
-   <link rel="icon" href="../../images/menu/icon.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<script src = "../../js/link.js"></script>
-</head>
-<body>
+   <head>
+      <title>Good Time</title>
+      <link rel="stylesheet" type="text/css" href="../../css/text.css">
+      <link rel="stylesheet" type="text/css" href="../../css/images.css">
+      <link rel="icon" href="../../images/menu/icon.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <script src = "../../js/link.js"></script>
+      <script src = "../../js/slavko.js" ></script>
+   </head>
+   <body onload="initializationPage()">
     <div class="form" >	
             <header>
                <img src = "../../images/menu/strilkanazad.png" class = "back"  onclick = "back_sport()">
@@ -35,13 +37,19 @@
                     всередині команди.
                     </p>
                     <div class = "icon_box"> 
-                     <div class = "icon"><img src="../../images/igru/sportuvni/спорт спайкбол.jpg"></div>
+                     <div class = "img"><img src="../../images/igru/sportuvni/спорт спайкбол.jpg"></div>
                      </div>
                      <div class = "icon_box"> 
-                        <div class = "icon"><img src="../../images/igru/sportuvni/спорт спайкбол3.jpg"></div>
+                        <div class = "img"><img src="../../images/igru/sportuvni/спорт спайкбол3.jpg"></div>
                         </div>
                      <p class = "last_p"></p>
              </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="" id="modal-image">
+      </div>
     </div>	
     </body>
     </html>

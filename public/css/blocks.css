@@ -155,6 +155,15 @@ header p {
   line-height: 30pt;
 }
 
+.blocks div.block_gameday {
+  width: 80%;  
+  height: 20%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
 /* ICONS_CONTACT -------------------- */
 
 .icons {
