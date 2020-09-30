@@ -15,7 +15,7 @@ const openModal = (e) => {
 }
 
 const initializationPage = () => {
-  const images = Array.from(document.getElementsByClassName('width'));
+  const images = Array.from(document.getElementsByClassName('img'));
   const modal = document.getElementById("myModal");
   const span = document.getElementsByClassName("close")[0];
   const modalContent = document.querySelector('.modal-content')
