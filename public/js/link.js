@@ -40,6 +40,33 @@ function contact(){
   document.location.href = "contact.html";
 }
 
+/* SHOP --------------------- */
+
+function waterflip(){
+  document.location.href = "shop/waterflip.html";
+}
+function nazvu5(){
+  document.location.href = "nazvu5.html";
+}
+function uno(){
+  document.location.href = "uno.html";
+}
+function braslet(){
+  document.location.href = "braslet.html";
+}
+function sitka(){
+  document.location.href = "sitka.html";
+}
+function brulok(){
+  document.location.href = "brulok.html";
+}
+function minikomiks(){
+  document.location.href = "minikomiks.html";
+}
+function zakladku(){
+  document.location.href = "zakladku.html";
+}
+
 /* BACK --------------------- */
 
 function back_menu(){
@@ -144,4 +171,6 @@ function back_menu(){
   function back_photo(){
     document.location.href = "../photo.html";
   }
-  
+  function back_shop(){
+    document.location.href = "../shop.html";
+  }
