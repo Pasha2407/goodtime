@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../css/images.css">
 	<link rel="icon" href="../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../js/link.js"></script>
+	<script src = "../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -41,7 +43,7 @@
 ціностями, важливими, добрими
 поступками, а не просто серіал де людина
 сидить все життя на дивані.
-</p><p> 
+</p><p><br></p><p> 
 Намалюйте коло і розділіть на 3 частини.
 Поясніть що день приблизно розділений на
 3 частини: 8 год. спимо, 8 год. навчаємось
@@ -49,7 +51,7 @@
 будь яких справ в житті).
 </p>
 <div class = "icon_box"> 
-	<div class = "icon"><img src="../../public/images/nastav/threes.png"></div>
+	<div class = "img"><img src="../../public/images/nastav/chas.png"></div>
 </div>
 <p> 
 Зазвичай люди тратять свій вільний час на
@@ -79,5 +81,11 @@
 </p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

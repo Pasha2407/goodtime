@@ -108,6 +108,10 @@ header>p{
     top: 14%;
     background:  #FEE7CA;
   }
+
+  #top0{
+    top: 0;
+  }
   
   .icons li {
     width: 25%;

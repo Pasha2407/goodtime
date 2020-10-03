@@ -1,3 +1,4 @@
+
 const openModal = (e) => {
   const { srcElement : { currentSrc }} = e;
   const modal = document.getElementById("myModal");
@@ -10,8 +11,6 @@ const openModal = (e) => {
   console.log(modal.childNodes)
   document.querySelector('.modal-content').appendChild(image)
   modal.style.display = "block";
-
-
 }
 
 const initializationPage = () => {
@@ -34,8 +33,8 @@ const initializationPage = () => {
 
     }
   }
+
 }
 
 const createModal = () => {
-
 }

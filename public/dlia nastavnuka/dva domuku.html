@@ -1,13 +1,15 @@
 <html>
 <head>
 	<title>Good Time</title>
-	<link rel="stylesheet" type="text/css" href="../css/text.css">
+   <link rel="stylesheet" type="text/css" href="../css/text.css">
+   <link rel="stylesheet" type="text/css" href="../css/images.css">
 	<link rel="icon" href="../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../js/link.js"></script>
+   <script src = "../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -43,7 +45,7 @@
                Текст:
             </span>
             
-             <i id = "yellow">Мт.7:24-27 </i>- Отож, кожен, хто
+             <i id = "yellow">Мт.7:24-27 - "Отож, кожен, хто
             слухає цих Моїх слів і виконує їх, подібний
             до чоловіка розумного, що свій дім
             збудував на камені. І линула злива, і
@@ -54,12 +56,12 @@
             того необачного, що свій дім збудував на
             піску. І линула злива, і розлилися річки, і
             буря знялася й на дім отой кинулась, і він
-            упав. І велика була та руїна його!
+            упав. І велика була та руїна його!"</i>
             </p><p><br></p><p> 
             Намалюйте 2 домики, згідно притчі.
             </p> 
             <div class = "icon_box"> 
-               <div class = "big_icon"><img src="../../public/images/nastav/3 2 домика.png"></div>
+               <div class = "img"><img src="../../public/images/nastav/3 2 домика.png"></div>
             </div>
             <p> 
             Що відрізняє ці 2 ілюстрації? Правильно
@@ -92,10 +94,16 @@
             </span>
             
              Вимивайте пісок зі свого серця,
-            щоб мати міцний фунтамент і коли прийте
+            щоб мати міцний фунтамент і коли прийде
             шторм, тоді буде видно в кого яке серце. 
             </p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>
