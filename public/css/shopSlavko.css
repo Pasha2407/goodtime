@@ -1,0 +1,79 @@
+.shop {
+  padding-top: 23%;
+  background-color: #FEE7CA;
+  height: 100%;
+}
+
+.imagesContainer {
+  display: flex;
+}
+
+
+.mainPhoto {
+  width: 50%;
+  margin: 10px;
+
+}
+
+.mainPhoto > img {
+  width: 100%;
+}
+
+.restPhotos {
+  width: 50%;
+  flex-direction: column;
+}
+
+.photolist {
+  display: flex;
+}
+
+.photolist > li {
+  list-style-type: none;
+  margin: 10px 10px 10px 0;
+}
+
+.photolist > li > img {
+  width: 100%;
+}
+
+.post_delivery > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.post_delivery > div > p{
+  text-align: left;
+  padding: 0 0 0 5px ;
+  font-size: 14px;
+}
+
+.post_logo1{
+  width: 25px;
+}
+
+.post_logo2{
+  width: 25px;
+}
+
+.cost{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.cost > button { 
+  padding: 5px 10px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 15px 20px;
+  font-size: 20px;
+  color: #11423B;
+}

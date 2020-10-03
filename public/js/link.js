@@ -45,8 +45,8 @@ function contact(){
 function waterflip(){
   document.location.href = "shop/waterflip.html";
 }
-function nazvu5(){
-  document.location.href = "nazvu5.html";
+function callFive(){
+  document.location.href = "shop/callFive.html";
 }
 function uno(){
   document.location.href = "uno.html";
