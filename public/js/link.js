@@ -49,22 +49,22 @@ function callFive(){
   document.location.href = "shop/callFive.html";
 }
 function uno(){
-  document.location.href = "uno.html";
+  document.location.href = "shop/uno.html";
 }
 function braslet(){
-  document.location.href = "braslet.html";
+  document.location.href = "shop/wristband.html";
 }
 function sitka(){
-  document.location.href = "sitka.html";
+  document.location.href = "shop/slidingNet.html";
 }
 function brulok(){
-  document.location.href = "brulok.html";
+  document.location.href = "shop/keyRing.html";
 }
 function minikomiks(){
-  document.location.href = "minikomiks.html";
+  document.location.href = "shop/miniComics.html";
 }
 function zakladku(){
-  document.location.href = "zakladku.html";
+  document.location.href = "shop/bookmarksForBible.html";
 }
 
 /* BACK --------------------- */
