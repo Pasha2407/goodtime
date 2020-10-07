@@ -1,13 +1,15 @@
 <html>
 <head>
   <title>Good Time</title>
-	<link rel="stylesheet" type="text/css" href="../css/shop2.css">
+  <link rel="stylesheet" type="text/css" href="../css/shop2.css">
+  <link rel="stylesheet" type="text/css" href="../css/images.css">
 	<link rel="icon" href="../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../js/link.js"></script>
+  <script src="../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 <div class="form" >	
   <header>
     <img src = "../images/menu/strilkanazad.png" class = "back" onclick = "back_shop()"> 
@@ -16,21 +18,15 @@
   <div class ="shop">
     <div class="imagesContainer">
       <div class="mainPhoto">
-          <img src="../images/shop/Браслети Good Time.jpg" alt="wristband">
+          <img class = "img" src="../images/shop/Браслети Good Time.jpg" alt="wristband">
       </div>
       <div class="restPhotos">
         <div class="photolist">
           <li class="smallPhoto">
-            <img src="../images/shop/Браслети Good Time 2.jpg" alt=" wristband2">    
+            <img class = "img" src="../images/shop/Браслети Good Time 2.jpg" alt=" wristband2">    
           </li>
           <li class="smallPhoto">
-            <img src="../images/shop/Браслети Good Time 3.jpg" alt="wristband3">
-          </li>
-          <li class="smallPhoto">
-            <img src="../images/shop/Браслети Good Time 4.jpg" alt="wristband4">
-          </li>
-          <li class="smallPhoto">
-            <img src="../images/shop/Браслети Good Time 5.jpg" alt="wristband5">
+            <img class = "img" src="../images/shop/Браслети Good Time 5.jpg" alt="wristband3">
           </li>
         </div>
         <div class="deliveryDetails">
@@ -50,12 +46,18 @@
     </div>
     <div class="cost">
       <button class="price">20 грн.</button>
-      <button class="pay">Купити</button>
+      <button onclick="shop_contact()" class="pay">Купити</button>
     </div>
     <div class="description">
         Браслети «Good Time» чудово підійдуть любителям лісової атмосферки).<br>
     </div>
   </div>
 </div>	
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="" id="modal-image">
+  </div>
+</div>
 </body>
 </html>

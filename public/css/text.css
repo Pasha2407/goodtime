@@ -98,6 +98,7 @@ header>p{
  left: 3%;
  margin-top: -4%;
  z-index: 1;
+ cursor: pointer;
 }
 
 /* TEXT ------------------ */
@@ -151,6 +152,7 @@ background-color: #FEE7CA;
   width: 45%;
   margin: 0 auto;
   padding: 3% 0 3% 0;
+  cursor: pointer;
 }
 
 .img img{

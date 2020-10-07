@@ -89,6 +89,7 @@ header>p{
  left: 3%;
  margin-top: -4%;
  z-index: 1;
+ cursor: pointer;
 }
 
 /* PHOTO ------------------ */
@@ -119,6 +120,7 @@ header>p{
     margin: 0 7% 3.5% 0;
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
 
   .icons img{

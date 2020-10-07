@@ -66,6 +66,9 @@ function minikomiks(){
 function zakladku(){
   document.location.href = "shop/bookmarksForBible.html";
 }
+function shop_contact(){
+  document.location.href = "../contact.html";
+}
 
 /* BACK --------------------- */
 
