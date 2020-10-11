@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../css/images.css">
 	<link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+	<script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -19,13 +21,103 @@
 			<p><span id="red">
                 Правила:
              </span></p>
-             <p class = "last_p">
+             <p>
                 На екрані висвітлюють якийсь предмет чи
              об’єкт, учасники мають відгадати, до якого
              Біблійного персонажа відноситься ця
              картинка.
-             </p>
+			 </p>
+			 <ul class = "icons" id = "no_top">
+				<li>
+				  <img src = "../../images/igru/vhaday/bibl asoc/авраам.jpg" class = "img">
+				</li>
+				<li>
+					<img src = "../../images/igru/vhaday/bibl asoc/вдова.jpg" class = "img">
+				  </li>
+				  <li>
+					<img src = "../../images/igru/vhaday/bibl asoc/воанергес.jpg" class = "img">
+				  </li>
+				  <li>
+					<img src = "../../images/igru/vhaday/bibl asoc/гедеон.jpg" class = "img">
+				  </li>
+				  <li>
+					<img src = "../../images/igru/vhaday/bibl asoc/давидд.jpg" class = "img">
+				  </li>
+				  <li>
+					  <img src = "../../images/igru/vhaday/bibl asoc/даниїл.jpg" class = "img">
+					</li>
+					<li>
+					  <img src = "../../images/igru/vhaday/bibl asoc/мойса.jpg" class = "img">
+					</li>
+					<li>
+					  <img src = "../../images/igru/vhaday/bibl asoc/ной (2).jpg" class = "img">
+					</li>
+					<li>
+						<img src = "../../images/igru/vhaday/bibl asoc/павло.jpeg" class = "img">
+					  </li>
+					  <li>
+						  <img src = "../../images/igru/vhaday/bibl asoc/павлоо.jpg" class = "img">
+						</li>
+						<li>
+						  <img src = "../../images/igru/vhaday/bibl asoc/петро1.jpg" class = "img">
+						</li>
+						<li>
+						  <img src = "../../images/igru/vhaday/bibl asoc/петроо.jpg" class = "img">
+						</li>
+						<li>
+							<img src = "../../images/igru/vhaday/bibl asoc/потіфар.jpg" class = "img">
+						  </li>
+						  <li>
+							  <img src = "../../images/igru/vhaday/bibl asoc/самсон (2).jpg" class = "img">
+							</li>
+							<li>
+							  <img src = "../../images/igru/vhaday/bibl asoc/седрах, мешах, аведнего.jpg" class = "img">
+							</li>
+							<li>
+							  <img src = "../../images/igru/vhaday/bibl asoc/симон.jpg" class = "img">
+							</li>
+							<li>
+								<img src = "../../images/igru/vhaday/bibl asoc/соломон.jpg" class = "img">
+							  </li>
+							  <li>
+								  <img src = "../../images/igru/vhaday/bibl asoc/тавіфа.jpg" class = "img">
+								</li>
+								<li>
+								  <img src = "../../images/igru/vhaday/bibl asoc/юда іскаріотський.jpg" class = "img">
+								</li>
+								<li>
+								  <img src = "../../images/igru/vhaday/bibl asoc/юда.jpg" class = "img">
+								</li>
+								<li>
+									<img src = "../../images/igru/vhaday/bibl asoc/єва.jpg" class = "img">
+								  </li>
+								  <li>
+									  <img src = "../../images/igru/vhaday/bibl asoc/єлесей.jpg" class = "img">
+									</li>
+									<li>
+									  <img src = "../../images/igru/vhaday/bibl asoc/єремія.jpg" class = "img">
+									</li>
+									<li>
+									  <img src = "../../images/igru/vhaday/bibl asoc/іван христитель.jpg" class = "img">
+									</li>
+									<li>
+										<img src = "../../images/igru/vhaday/bibl asoc/ілля.jpg" class = "img">
+									  </li>
+									  <li>
+										  <img src = "../../images/igru/vhaday/bibl asoc/ілляя.jpg" class = "img">
+										</li>
+										<li>
+										  <img src = "../../images/igru/vhaday/bibl asoc/ірод.jpg" class = "img">
+										</li>
+				</ul>
+				<p  class ="last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

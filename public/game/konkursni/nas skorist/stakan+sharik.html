@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
    <link rel="stylesheet" type="text/css" href="../../../css/text.css">
+   <link rel="stylesheet" type="text/css" href="../../../css/images.css">
    <link rel="icon" href="../../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../../js/link.js"></script>
+	<script src = "../../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -15,7 +17,7 @@
 			<p class="header">Стаканчики + шарік</p>
 		</header>
 		<div class = "text">
-         <br>
+        <p>  <br></p>
          <p>
 			Декілька цікавих ігор зі звичайними, 
 пластиковими стаканчиками і надувною
@@ -47,6 +49,9 @@
 стола. Учасник на швидкість має здути всі
 стаканчики надувним шаріком. 
 </p>
+<div class = "icon_box"> 
+   <div class = "img"><img src="../../../images/igru/konkursu/стаканчики+шарік.png"></div>
+   </div>	
 <p> <b>
     2. «Лабіринт».
    </b> </p>
@@ -79,6 +84,10 @@
 3 стаканчики в інший кінець лабіринту -
 виграла.
 </p>
+<div class = "icon_box"> 
+   <div class = "img"><img src="../../../images/igru/konkursu/стаканчики+шарік2.png"></div>
+   <div class = "img"><img src="../../../images/igru/konkursu/лабіринт.jpg"></div>
+   </div>	
 <p><b>
 3. «Перевізник».</b>
 </p>
@@ -101,7 +110,7 @@
 <p><span id="red">
    Правила:
 </span></p>
-<p  class = "last_p">
+<p>
   Ділимо учасників на 2 команди (по 3 в
 команді). На одному столі ставимо 20
 стаканчиків (10 однієї, 10 іншої команди).
@@ -112,7 +121,18 @@
 інший. Яка команда швидше перенесла 10
 стаканчиків на інший стіл - виграла.
 </p>
+<div class = "icon_box"> 
+   <div class = "img"><img src="../../../images/igru/konkursu/перевізник.jpg"></div>
+   <div class = "img"><img src="../../../images/igru/konkursu/перевізник2.jpg"></div>
+   </div>	
+   <p  class = "last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

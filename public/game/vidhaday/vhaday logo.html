@@ -1,13 +1,15 @@
 <html>
 <head>
-	<title>Good Time</title>
-  <link rel="stylesheet" type="text/css" href="../../css/text.css">
-  <link rel="icon" href="../../images/menu/icon.png">
+  <title>Good Time</title>
+	<link rel="stylesheet" type="text/css" href="../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../css/images.css">
+	<link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+	<script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -19,7 +21,7 @@
 			<p><span id="red">
                 Правила:
              </span></p>
-             <p class = "last_p">
+             <p>
                Учасників ділимо на 2 команди. Один з
              учасників виходить на сцену (або місце де
              будуть висвічувати картинки), включається
@@ -30,7 +32,47 @@
              учасника є одноразова допомога від своєї
              команди.
              </p>
+             <ul class = "icons" id = "no_top">
+              <li>
+                <img src = "../../images/igru/vhaday/logo/1.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/logo/2.jpg" class = "img">
+                </li>
+                <li>
+                <img src = "../../images/igru/vhaday/logo/3.jpg" class = "img">
+                </li>
+                <li>
+                <img src = "../../images/igru/vhaday/logo/4.jpg" class = "img">
+                </li>
+                <li>
+                  <img src = "../../images/igru/vhaday/logo/5.jpg" class = "img">
+                  </li>
+                  <li>
+                    <img src = "../../images/igru/vhaday/logo/6.jpg" class = "img">
+                    </li>
+                    <li>
+                      <img src = "../../images/igru/vhaday/logo/7.jpg" class = "img">
+                      </li>
+                      <li>
+                        <img src = "../../images/igru/vhaday/logo/8.jpg" class = "img">
+                        </li>
+                        <li>
+                          <img src = "../../images/igru/vhaday/logo/9.jpg" class = "img">
+                          </li>
+                          <li>
+                            <img src = "../../images/igru/vhaday/logo/10.jpg" class = "img">
+                            </li>
+            
+              </ul>
+              <p  class ="last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

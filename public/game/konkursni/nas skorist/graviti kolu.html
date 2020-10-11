@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/images.css">
 	<link rel="icon" href="../../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../../js/link.js"></script>
+	<script src = "../../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -15,7 +17,7 @@
 			<p class="header">Гравітація коли</p>
 		</header>
 		<div class = "text">
-			<br>
+			<p><br></p>
 			<p><span id="red">
 				Ціль гри:
 			 </span>
@@ -34,15 +36,25 @@
 			 <p><span id="red">
 				Правила:
 			 </span></p>
-			 <p class = "last_p">
+			 <p>
 			   Учасники на рахунок 1,2,3 відкривають
 			 пепсі і п’ють приблизно 70% вмісту, після
 			 чого пробують покласти банку на кутик, так
 			 щоб вона зафіксувалась (як на картинці).
 			 Виграє той хто швидше справився з
 			 завданням. 
-			 </p>		
+			 </p>	
+			 <div class = "icon_box"> 
+				<div class = "img"><img src="../../../images/igru/konkursu/гравітація пепсі.png"></div>
+				</div>	
+				<p class = "last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

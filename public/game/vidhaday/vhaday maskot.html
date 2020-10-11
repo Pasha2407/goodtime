@@ -1,13 +1,15 @@
 <html>
 <head>
-	<title>Good Time</title>
-  <link rel="stylesheet" type="text/css" href="../../css/text.css">
-  <link rel="icon" href="../../images/menu/icon.png">
+  <title>Good Time</title>
+	<link rel="stylesheet" type="text/css" href="../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../css/images.css">
+	<link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+	<script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -19,7 +21,7 @@
 			<p><span id="red">
                 Правила:
              </span></p>
-             <p class = "last_p">
+             <p>
                Учасникам показують відомого
              персонажа якогось бренду чи фірми, і
              учасники мають відгадувати (піднявши
@@ -29,7 +31,108 @@
              персонажа, отримує цукерку або
              нараховуються бали.
              </p>
+             <ul class = "icons" id = "no_top">
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/1 nesquik.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/2 растішка.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/3 aquafresh.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/4 fanta.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/4 весела корівка.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/5 life.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/6 харибо.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/7 frosties.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/8 cola.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/8 domestos.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/9 cheetos.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/9 furshet_fishka.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/10 kinder pingue.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/11 kosmostar.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/12 Lion.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/14 M&M.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/15 Milka.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/15 Mr Proper.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/16 monobank.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/17 michelin.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/18 McDonald.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/20 orbit.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/21 Pringles.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/22 Gesko.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/23 redbull.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/24 schweppes.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/25 vk.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/26 корсар.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/27 олд спайс.jpg" class = "img">
+              </li>
+              <li>
+                <img src = "../../images/igru/vhaday/maskot/28 Оленка.jpg" class = "img">
+              </li>
+              
+              
+              </ul>
+              <p  class ="last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

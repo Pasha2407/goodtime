@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/images.css">
 	<link rel="icon" href="../../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../../js/link.js"></script>
+	<script src = "../../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -35,11 +37,22 @@
 			 <p><span id="red">
 				Правила:
 			 </span></p>
-			 <p class = "last_p">
+			 <p>
 			   Учасник з відстані 5м. від цілі, надуває
 			 мильну бульбашку, і дує її в ціль - кільце. 
-			 </p>		
+			 </p>	
+			 <div class = "icon_box"> 
+				<div class = "img"><img src="../../../images/igru/konkursu/бульбашка 1.jpg"></div>
+				<div class = "img"><img src="../../../images/igru/konkursu/бульбашка 2.jpg"></div>
+				</div>	
+				<p  class = "last_p"></p> 
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>
