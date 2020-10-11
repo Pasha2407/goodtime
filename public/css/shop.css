@@ -63,13 +63,13 @@ header {
   height: 14%;
   background:#FEE7CA;
   z-index: 1;
-  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header p {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  margin: 0 auto;
   -webkit-background-clip: text;
   color: transparent;
   background-clip: text;

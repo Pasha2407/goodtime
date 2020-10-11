@@ -1,13 +1,15 @@
 <html>
 <head>
 	<title>Good Time</title>
-	<link rel="stylesheet" type="text/css" href="../../css/text.css">
-	<link rel="icon" href="../../images/menu/icon.png">
+   <link rel="stylesheet" type="text/css" href="../../css/text.css">
+   <link rel="stylesheet" type="text/css" href="../../css/images.css">
+   <link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+   <script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -18,25 +20,39 @@
             <p><br></p>
             <p>
             
-             Крісло Мішок.<br>
+               <b>  Крісло Мішок.</b><br>
             
                Найзручніша річ на якій можна сидіти.
             </p>
-            <p><br></p>
+            <div class = "icon_box"> 
+               <div class = "img"><img src="../../images/idei/dekor/rechi/крісло мішок.jpg"></div>
+               </div>
             <p>
             
-               Настільні ігри.<br>
+               <b> Настільні ігри.</b><br>
             
                Проводьте час граючи у цікаві ігри, які зроблять ваші зустрічі дружнішими.
             </p>
-            <p><br></p>
-            <p class ="last_p">
-               Пахучі свічки.<br>
+            <div class = "icon_box"> 
+               <div class = "img"><img src="../../images/idei/dekor/rechi/настільні ігри.jpg"></div>
+               </div>
+            <p>
+               <b>  Пахучі свічки.</b><br>
             
                Приємний аромат і освітлення свічок зроблять особливу атмосферу.
             </p>
-
+            <div class = "icon_box"> 
+               <div class = "img"><img src="../../images/idei/dekor/rechi/Пахучі свічки..jpg"></div>
+               <div class = "img"><img src="../../images/idei/dekor/rechi/Пахучі свічки.2.jpg"></div>
+               </div>
+               <p class ="last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

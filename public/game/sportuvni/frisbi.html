@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../css/images.css">
 	<link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+	<script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -24,9 +26,9 @@
   <p><span id="red"> Правила:</span>
   <p> Фрісбі або Алтимат одна з найцікавіших
 ігор. Позначайємо територію як на 
-картинці.
+картинці.</p>
 <div class = "icon_box"> 
-</p><div class="img"><img src="../../images/igru/sportuvni/frisbi_icon.png"></div>
+<div class="img"><img src="../../images/igru/sportuvni/frisbi_icon.png"></div>
 </div>
 <p class = "last_p">Команда 
   починає гру з   
@@ -42,5 +44,11 @@
 протилежна команда.</p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

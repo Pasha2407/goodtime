@@ -126,6 +126,9 @@ body {
   .icons p {
     font-size:25px;
   }
+  .form{
+    height: 120%;
+  }
 }
 
 @media screen and (max-width: 770px) {
