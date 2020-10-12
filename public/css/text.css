@@ -112,6 +112,13 @@ p{
   font:17px ‘Roboto’,Century Gothic, sans-serif;
 }
 
+a{
+  padding: 0 9% 0 9%;
+  color: #1a8575;
+  font:17px ‘Roboto’,Century Gothic, sans-serif;
+  font-weight: bold;
+}
+
 .last_p {
   padding-bottom: 10%;
 }
