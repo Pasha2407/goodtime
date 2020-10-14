@@ -2,12 +2,14 @@
 <head>
 	<title>Good Time</title>
 	<link rel="stylesheet" type="text/css" href="../../css/text.css">
+	<link rel="stylesheet" type="text/css" href="../../css/images.css">
 	<link rel="icon" href="../../images/menu/icon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<script src = "../../js/link.js"></script>
+	<script src = "../../js/slavko.js" ></script>
 </head>
-<body>
+<body onload="initializationPage()">
 
 <div class="form" >	
 		<header>
@@ -15,16 +17,188 @@
 			<p class="header">Хто сказав</p>
 		</header>
 		<div class = "text">
-			<br>		
+			<p><br></p>		
 			<p><span id="red">
                 Правила:
              </span></p>
-             <p class = "last_p">
+             <p>
                 На екрані висвітлюють Біблійний текст
              (слова якогось персонажа), учасники мають
              відгадати, хто саме сказав ці слова.
              </p>
+			 <br>
+             <ul class = "icons" id = "no_top">
+               <li>
+                 <img src = "../../images/igru/vhaday/xto skazav/1.jpg" class = "img">
+			   </li>
+			   <li>
+				<img src = "../../images/igru/vhaday/xto skazav/10.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/11.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/12.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/13.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/14.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/15.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/16.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/17.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/18.jpg" class = "img">
+			  </li>
+			  <li>
+				<img src = "../../images/igru/vhaday/xto skazav/19.jpg" class = "img">
+			  </li>
+			  <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/2.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/20.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/21.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/22.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/23.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/24.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/25.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/26.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/3.jpg" class = "img">
+			 </li>
+			 <li>
+				<img src = "../../images/igru/vhaday/xto skazav/4.jpg" class = "img">
+			  </li>
+			  <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/5.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/6.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/7.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/8.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/ангел.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/бог.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/голіаф.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/давид.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/дарій.jpg" class = "img">
+			 </li>
+			 <li>
+				<img src = "../../images/igru/vhaday/xto skazav/деліла.jpg" class = "img">
+			  </li>
+			  <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/змій.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/йов.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/йона.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/йонатан.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/каїн.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/мойсей.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/Н ангел.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/Н самуїл.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/навуходоносор.jpg" class = "img">
+			 </li>
+			 <li>
+				<img src = "../../images/igru/vhaday/xto skazav/неемія.jpg" class = "img">
+			  </li>
+			  <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/никодим.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/пилат.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/розбійник.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/рувим.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/самуїл.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/сотник.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/фараон.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/шева.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/юда.jpg" class = "img">
+			 </li>
+			 <li>
+				<img src = "../../images/igru/vhaday/xto skazav/єлисей.jpg" class = "img">
+			  </li>
+			  <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/І ангел.jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/іван хр..jpg" class = "img">
+			 </li>
+			 <li>
+			   <img src = "../../images/igru/vhaday/xto skazav/ісус.jpg" class = "img">
+			 </li>
+               </ul>
+               <p class="last_p"></p>
 		 </div>
 </div>	
+<div id="myModal" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <img src="" id="modal-image">
+	</div>
+  </div>
 </body>
 </html>

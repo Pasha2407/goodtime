@@ -79,6 +79,7 @@ p.long_header{
     font-weight: 800;
     color: #FEE7CA;
     background: none;
+    text-align: center;
   }
 
 .back {
@@ -100,6 +101,10 @@ p.long_header{
   background:  #FEE7CA;
   margin: 0 auto;
   top:14%;
+}
+
+.avtor {
+  text-align: right;
 }
 
 p{

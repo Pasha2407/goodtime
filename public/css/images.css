@@ -59,9 +59,11 @@ header {
   position: fixed;
   width: 100%;  
   height: 14%;
-  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
-  background-color: #FEE7CA;
+  background: linear-gradient(-135deg, rgb(26, 127, 97) , rgb(39, 31, 55));
 }
 
 p.long_header{
@@ -73,13 +75,10 @@ p.long_header{
   }
 
 header>p{
-  text-align: center;
   font:25px ‘Roboto’,Century Gothic, sans-serif;
   font-weight: 800;
   color: #FEE7CA;
-  background: linear-gradient(-135deg, rgb(26, 127, 97) , rgb(39, 31, 55));
-  display: table-cell;
-  vertical-align: middle;
+  margin: 0 auto;
 }
 
 .back {

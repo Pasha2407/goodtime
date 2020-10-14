@@ -197,6 +197,9 @@ header p {
   .very_long_header {
     font-size: calc(22px + (23 + 23 * 0.7) * ((100vw - 1280px) / 2000));
   }
+  .blocks {
+    top: 14%;
+  }
 
 }
 
@@ -224,6 +227,9 @@ header p {
   }
   .blocks a.very_long_a {
     font-size: 34px;
+  }
+  .blocks {
+    top: 15%;
   }
  }
 
