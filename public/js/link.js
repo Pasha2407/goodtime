@@ -13,31 +13,31 @@ function pablo_insta(){
 /* MENU ---------------------- */
 
 function pro(){
-	document.location.href = "pro.html";
+	document.location.href = "public/pro.html";
 }
 function game(){
-	document.location.href = "game.html";
+	document.location.href = "public/game.html";
 }
 function nastav(){
-	document.location.href = "dlia nastavnuka.html";
+	document.location.href = "public/dlia nastavnuka.html";
 }
 function read(){
- document.location.href = "read.html";
+ document.location.href = "public/read.html";
 }
 function shop(){
-	document.location.href = "shop.html";
+	document.location.href = "public/shop.html";
 }
 function idei(){
-  document.location.href = "idei.html";
+  document.location.href = "public/idei.html";
 }
 function photo(){
-  document.location.href = "photo.html";
+  document.location.href = "public/photo.html";
 }
 function gameday(){
-  document.location.href = "gameday.html";
+  document.location.href = "public/gameday.html";
 }
 function contact(){
-  document.location.href = "contact.html";
+  document.location.href = "public/contact.html";
 }
 
 /* SHOP --------------------- */
@@ -73,7 +73,7 @@ function shop_contact(){
 /* BACK --------------------- */
 
 function back_menu(){
-  document.location.href = "index.html";
+  document.location.href = "../index.html";
 }
   function back_game(){
     document.location.href = "../game.html";
